@@ -1,0 +1,17 @@
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\bin\Release\net9.0\Repositories.deps.json
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\bin\Release\net9.0\Repositories.dll
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\bin\Release\net9.0\Repositories.pdb
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\bin\Release\net9.0\BusinessObject.dll
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\bin\Release\net9.0\DataAccessLayer.dll
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\bin\Release\net9.0\BusinessObject.pdb
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\bin\Release\net9.0\DataAccessLayer.pdb
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Repositories.csproj.AssemblyReference.cache
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Repositories.AssemblyInfoInputs.cache
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Repositories.AssemblyInfo.cs
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Repositories.csproj.CoreCompileInputs.cache
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Reposito.787EC4B2.Up2Date
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Repositories.dll
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\refint\Repositories.dll
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\Repositories.pdb
+D:\Assignment1_PRN212\Assignment1_PRN212\Repositories\obj\Release\net9.0\ref\Repositories.dll

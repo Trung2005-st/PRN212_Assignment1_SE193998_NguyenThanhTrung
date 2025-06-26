@@ -1,0 +1,163 @@
+﻿<Window x:Class="Lucy_SalesManagement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lucy Sales Management"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Width="800" Height="500"
+        Background="Transparent">
+
+    <!-- 1. Resources: gradient & styles -->
+    <Window.Resources>
+        <!-- Nền gradient -->
+        <LinearGradientBrush x:Key="WindowBackground" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#FF536976" Offset="0" />
+            <GradientStop Color="#FF292E49" Offset="1" />
+        </LinearGradientBrush>
+
+        <!-- Card style -->
+        <Style x:Key="CardStyle" TargetType="Border">
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Padding" Value="24"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#44000000" BlurRadius="15" ShadowDepth="4"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Input style (TextBox + PasswordBox) -->
+        <Style x:Key="InputStyle" TargetType="Control">
+            <Setter Property="Margin" Value="0,8,0,8"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+        <Style TargetType="TextBox" BasedOn="{StaticResource InputStyle}">
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="BorderBrush" Value="#CCC"/>
+            <Setter Property="Background" Value="#FFF"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="PasswordBox" BasedOn="{StaticResource InputStyle}">
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="BorderBrush" Value="#CCC"/>
+            <Setter Property="Background" Value="#FFF"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Button style -->
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Background" Value="#FF536976"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Margin" Value="0,12,0,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF455A64"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#FF37474F"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <!-- 2. Root layout -->
+    <Grid Background="{StaticResource WindowBackground}">
+        <!-- Card centered -->
+        <Border Style="{StaticResource CardStyle}"
+                Width="360" Height="360"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+
+            <StackPanel>
+                <!-- Title -->
+                <TextBlock Text="Lucy Sales Management"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           Foreground="#333"
+                           HorizontalAlignment="Center"/>
+
+                <TextBlock Text="Please log in to continue"
+                           FontSize="12"
+                           Foreground="#666"
+                           Margin="0,6,0,16"
+                           HorizontalAlignment="Center"/>
+
+                <!-- TabControl for Admin / Customer -->
+                <TabControl>
+                    <!-- Admin Tab -->
+                    <TabItem Header="Admin">
+                        <StackPanel Margin="0,8,0,0">
+                            <TextBlock Text="Username" FontSize="12"/>
+                            <TextBox x:Name="txtAdminUser"
+                                     Style="{StaticResource InputStyle}"/>
+
+                            <TextBlock Text="Password" FontSize="12"/>
+                            <PasswordBox x:Name="txtAdminPass"
+                                         Style="{StaticResource InputStyle}"/>
+
+                            <!-- keep the same Click handler -->
+                            <Button Content="Admin"
+                                    Style="{StaticResource PrimaryButton}"
+                                    Click="Admin_Click"/>
+                        </StackPanel>
+                    </TabItem>
+
+                    <!-- Customer Tab -->
+                    <TabItem Header="Customer">
+                        <StackPanel Margin="0,8,0,0">
+                            <TextBlock Text="Phone Number" FontSize="12"/>
+                            <TextBox x:Name="txtCustomerPhone"
+                                     Style="{StaticResource InputStyle}"/>
+
+                            <Button Content="Customer"
+                                    Style="{StaticResource PrimaryButton}"
+                                    Click="Customer_Click"/>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

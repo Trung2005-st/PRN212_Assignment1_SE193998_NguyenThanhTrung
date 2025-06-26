@@ -1,0 +1,1025 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\managereportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:managereportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\managereportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:managereportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEF335B-9AE0-4D93-808F-16D75B676260}|..\\BusinessObject\\BusinessObject.csproj|d:\\assignment1_prn212\\assignment1_prn212\\businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEF335B-9AE0-4D93-808F-16D75B676260}|..\\BusinessObject\\BusinessObject.csproj|d:\\assignment1_prn212\\assignment1_prn212\\businessobject\\order_detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA14641-13D2-4E92-B663-D89C81E95F46}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\assignment1_prn212\\assignment1_prn212\\dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA14641-13D2-4E92-B663-D89C81E95F46}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\assignment1_prn212\\assignment1_prn212\\dataaccesslayer\\employeedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA14641-13D2-4E92-B663-D89C81E95F46}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\assignment1_prn212\\assignment1_prn212\\dataaccesslayer\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA14641-13D2-4E92-B663-D89C81E95F46}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\assignment1_prn212\\assignment1_prn212\\dataaccesslayer\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\manageorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:manageorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\manageorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:manageorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA14641-13D2-4E92-B663-D89C81E95F46}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\assignment1_prn212\\assignment1_prn212\\dataaccesslayer\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\manageproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:manageproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\manageproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:manageproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\managecustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:managecustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\managecustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:managecustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\employeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:employeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\employeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:employeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9127677-D0CA-42F9-B41C-F9E63A82EFF7}|..\\Services\\Services.csproj|d:\\assignment1_prn212\\assignment1_prn212\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA6967-1DDB-483E-BC82-7B2BD1E40AE9}|..\\Repositories\\Repositories.csproj|d:\\assignment1_prn212\\assignment1_prn212\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA14641-13D2-4E92-B663-D89C81E95F46}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\assignment1_prn212\\assignment1_prn212\\dataaccesslayer\\lucy_salesdata.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA14641-13D2-4E92-B663-D89C81E95F46}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\assignment1_prn212\\assignment1_prn212\\dataaccesslayer\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEF335B-9AE0-4D93-808F-16D75B676260}|..\\BusinessObject\\BusinessObject.csproj|d:\\assignment1_prn212\\assignment1_prn212\\businessobject\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEF335B-9AE0-4D93-808F-16D75B676260}|..\\BusinessObject\\BusinessObject.csproj|d:\\assignment1_prn212\\assignment1_prn212\\businessobject\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEF335B-9AE0-4D93-808F-16D75B676260}|..\\BusinessObject\\BusinessObject.csproj|d:\\assignment1_prn212\\assignment1_prn212\\businessobject\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\CustomerDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\OrderDetailDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\Repositories\\CustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\Repositories\\ICustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\CategoryDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\BusinessObject\\Customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\ProductDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\OrderDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\EmployeeDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\Services\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\BusinessObject\\Employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\BusinessObject\\Order_Details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\BusinessObject\\Categorys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\BusinessObject\\Orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\BusinessObject\\Products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml.layout||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|d:\\assignment1_prn212\\assignment1_prn212\\lucy_salesmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8687A927-A50E-4EB0-AECC-D95604690D32}|Lucy_SalesManagement.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\EmployeeDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\EmployeeDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\EmployeeDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\EmployeeDAO.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:43:34.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\CustomerDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\CustomerDAO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIAwwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:43:32.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:06:16.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:38:39.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageReportWindow.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageReportWindow.xaml",
+              "RelativeDocumentMoniker": "ManageReportWindow.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageReportWindow.xaml",
+              "RelativeToolTip": "ManageReportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T14:00:33.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order_Detail.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Order_Detail.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Order_Detail.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Order_Detail.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Order_Detail.cs",
+              "ViewState": "AgIAAAEAAAAADBNUALIewAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:43:58.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageReportWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageReportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageReportWindow.xaml.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageReportWindow.xaml.cs",
+              "RelativeToolTip": "ManageReportWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwD0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:14:06.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Order.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Order.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Order.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:43:53.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDetailDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\OrderDetailDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\OrderDetailDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\OrderDetailDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\OrderDetailDAO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:47:56.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\OrderDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\OrderDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\OrderDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\OrderDAO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:39:05.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageOrderWindow.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageOrderWindow.xaml",
+              "RelativeDocumentMoniker": "ManageOrderWindow.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageOrderWindow.xaml",
+              "RelativeToolTip": "ManageOrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T13:59:55.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageOrderWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageOrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageOrderWindow.xaml.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageOrderWindow.xaml.cs",
+              "RelativeToolTip": "ManageOrderWindow.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwGAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:36:05.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDetailService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\OrderDetailService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\OrderDetailService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\OrderDetailService.cs",
+              "RelativeToolTip": "..\\Services\\OrderDetailService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:50:29.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderDetailService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IOrderDetailService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IOrderDetailService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IOrderDetailService.cs",
+              "RelativeToolTip": "..\\Services\\IOrderDetailService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:49:43.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\OrderDetailRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\OrderDetailRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\OrderDetailRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:47:42.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:37:59.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IOrderDetailRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IOrderDetailRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:46:01.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\ProductDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\ProductDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\ProductDAO.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwBgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:01:51.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:43:37.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\OrderService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\Services\\OrderService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA7wCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:43:29.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IOrderService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IOrderService.cs",
+              "RelativeToolTip": "..\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:40:49.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IEmployeeService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "..\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:22:23.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ICustomerService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "..\\Services\\ICustomerService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:48:56.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ManageProductWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProductWindow.xaml.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageProductWindow.xaml.cs",
+              "RelativeToolTip": "ManageProductWindow.xaml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:02:05.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:05:46.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManageCustomerWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageCustomerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageCustomerWindow.xaml.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageCustomerWindow.xaml.cs",
+              "RelativeToolTip": "ManageCustomerWindow.xaml.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAA9wH0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:01:47.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageProductWindow.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageProductWindow.xaml",
+              "RelativeDocumentMoniker": "ManageProductWindow.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageProductWindow.xaml",
+              "RelativeToolTip": "ManageProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T13:58:57.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IProductService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\IProductService.cs",
+              "RelativeToolTip": "..\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:09:31.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\ProductService.cs",
+              "RelativeToolTip": "..\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:09:45.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ManageCustomerWindow.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageCustomerWindow.xaml",
+              "RelativeDocumentMoniker": "ManageCustomerWindow.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\ManageCustomerWindow.xaml",
+              "RelativeToolTip": "ManageCustomerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T13:58:00.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:02:27.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EmployeeWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\EmployeeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EmployeeWindow.xaml.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\EmployeeWindow.xaml.cs",
+              "RelativeToolTip": "EmployeeWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:34:21.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T09:02:30.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CustomerWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\CustomerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CustomerWindow.xaml.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\CustomerWindow.xaml.cs",
+              "RelativeToolTip": "CustomerWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T12:49:20.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EmployeeWindow.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\EmployeeWindow.xaml",
+              "RelativeDocumentMoniker": "EmployeeWindow.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\EmployeeWindow.xaml",
+              "RelativeToolTip": "EmployeeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T13:30:16.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "..\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA5wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:22:40.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:17:55.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\CustomerService.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Services\\CustomerService.cs",
+              "RelativeToolTip": "..\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:44:52.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:44:53.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:18:22.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:44:53.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Lucy_SalesData.dbml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "RelativeToolTip": "..\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-06-25T11:43:40.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\CategoryDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\DataAccessLayer\\CategoryDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\CategoryDAO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:45:12.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Customer.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Customer.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Customer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T12:55:05.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CustomerWindow.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\CustomerWindow.xaml",
+              "RelativeDocumentMoniker": "CustomerWindow.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\CustomerWindow.xaml",
+              "RelativeToolTip": "CustomerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T12:47:31.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Product.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Product.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Product.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Product.cs",
+              "ViewState": "AgIAABEAAABABo/PcNcgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:43:43.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Employee.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\BusinessObject\\Employee.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Employee.cs",
+              "ViewState": "AgIAAAQAAAAAASHho/YQwBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:44:04.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Assignment1_PRN212\\Assignment1_PRN212\\Lucy_SalesManagement\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T12:00:32.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OrderDetailDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\OrderDetailDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\OrderDetailDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\OrderDetailDAO.cs",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\OrderDetailDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:36:50.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\..\\Repositories\\CustomerRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:10:54.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "..\\..\\Repositories\\ICustomerRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:00:25.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\CategoryDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\CategoryDAO.cs",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\CategoryDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:58:47.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\CustomerDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\CustomerDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:48:20.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\BusinessObject\\Customers.cs",
+              "RelativeDocumentMoniker": "..\\..\\BusinessObject\\Customers.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\BusinessObject\\Customers.cs",
+              "RelativeToolTip": "..\\..\\BusinessObject\\Customers.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:09:30.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\ProductDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\ProductDAO.cs",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\ProductDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:17:17.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrderDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\OrderDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\OrderDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\OrderDAO.cs",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\OrderDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:30:50.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "EmployeeDAO.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\EmployeeDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\EmployeeDAO.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\EmployeeDAO.cs",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\EmployeeDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:50:54.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\Services\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\Services\\Class1.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\Services\\Class1.cs",
+              "RelativeToolTip": "..\\..\\Services\\Class1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:10:37.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\BusinessObject\\Employees.cs",
+              "RelativeDocumentMoniker": "..\\..\\BusinessObject\\Employees.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\BusinessObject\\Employees.cs",
+              "RelativeToolTip": "..\\..\\BusinessObject\\Employees.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:14:02.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Lucy_SalesData.dbml",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\Lucy_SalesData.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-06-25T09:11:50.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Order_Details.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\BusinessObject\\Order_Details.cs",
+              "RelativeDocumentMoniker": "..\\..\\BusinessObject\\Order_Details.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\BusinessObject\\Order_Details.cs",
+              "RelativeToolTip": "..\\..\\BusinessObject\\Order_Details.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:13:37.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Categorys.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\BusinessObject\\Categorys.cs",
+              "RelativeDocumentMoniker": "..\\..\\BusinessObject\\Categorys.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\BusinessObject\\Categorys.cs",
+              "RelativeToolTip": "..\\..\\BusinessObject\\Categorys.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:16:59.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\BusinessObject\\Orders.cs",
+              "RelativeDocumentMoniker": "..\\..\\BusinessObject\\Orders.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\BusinessObject\\Orders.cs",
+              "RelativeToolTip": "..\\..\\BusinessObject\\Orders.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:13:17.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\BusinessObject\\Products.cs",
+              "RelativeDocumentMoniker": "..\\..\\BusinessObject\\Products.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\BusinessObject\\Products.cs",
+              "RelativeToolTip": "..\\..\\BusinessObject\\Products.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:13:05.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Lucy_SalesData.designer.cs",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\Lucy_SalesData.designer.cs",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.designer.cs",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\Lucy_SalesData.designer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:52:56.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Lucy_SalesData.dbml.layout",
+              "DocumentMoniker": "D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml.layout",
+              "RelativeDocumentMoniker": "..\\..\\DataAccessLayer\\Lucy_SalesData.dbml.layout",
+              "ToolTip": "D:\\Assignment1_PRN212\\DataAccessLayer\\Lucy_SalesData.dbml.layout",
+              "RelativeToolTip": "..\\..\\DataAccessLayer\\Lucy_SalesData.dbml.layout",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-25T09:53:01.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

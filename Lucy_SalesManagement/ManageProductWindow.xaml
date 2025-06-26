@@ -1,0 +1,258 @@
+﻿<Window x:Class="Lucy_SalesManagement.ManageProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Products"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Width="900"
+        Height="600"
+        Background="#F5F7FA">
+
+    <Window.Resources>
+        <!-- Normal and Hover drop shadows for buttons -->
+        <DropShadowEffect x:Key="ButtonNormalShadow"
+                          Color="#44000000"
+                          BlurRadius="8"
+                          ShadowDepth="2"
+                          Opacity="0.5"/>
+        <DropShadowEffect x:Key="ButtonHoverShadow"
+                          Color="#66000000"
+                          BlurRadius="16"
+                          ShadowDepth="4"
+                          Opacity="0.8"/>
+
+        <!-- Navbar button style -->
+        <Style x:Key="NavButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#44FFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- TextBox input style -->
+        <Style x:Key="InputStyle" TargetType="TextBox">
+            <Setter Property="Margin" Value="0,2,0,2"/>
+            <Setter Property="Height" Value="24"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="4"/>
+            <Setter Property="BorderBrush" Value="#CCC"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Primary button style with shadow-change on hover -->
+        <Style x:Key="PrimaryButton" TargetType="Button" BasedOn="{StaticResource NavButton}">
+            <Setter Property="Background" Value="#2C3E50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Effect" Value="{StaticResource ButtonNormalShadow}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="4"
+                                Effect="{TemplateBinding Effect}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border"
+                                        Property="Effect"
+                                        Value="{StaticResource ButtonHoverShadow}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border"
+                                        Property="Effect"
+                                        Value="{StaticResource ButtonNormalShadow}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel>
+
+        <!-- Navbar -->
+        <Grid DockPanel.Dock="Top" Height="60" Background="#2C3E50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="LucySale"
+                       VerticalAlignment="Center"
+                       Margin="24,0,0,0"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       Foreground="White"/>
+
+            <Button Grid.Column="1"
+                    Content="Logout"
+                    Style="{StaticResource NavButton}"
+                    Margin="0,0,24,0"
+                    VerticalAlignment="Center"
+                    Click="Logout_Click"/>
+        </Grid>
+
+        <!-- Sub-header -->
+        <Border DockPanel.Dock="Top"
+                Background="White"
+                Padding="16,12"
+                BorderBrush="#EEE"
+                BorderThickness="0,0,0,1">
+            <TextBlock Text="Manage Products"
+                       FontSize="16"
+                       Foreground="#333"/>
+        </Border>
+
+        <!-- Main content -->
+        <Grid Margin="24">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- DataGrid of products -->
+            <DataGrid x:Name="dgProducts"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      SelectionMode="Single"
+                      HeadersVisibility="Column"
+                      Grid.Column="0"
+                      Margin="0,0,16,0" SelectionChanged="dgProducts_SelectionChanged_1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ProductID"
+                                         Binding="{Binding ProductID}"
+                                         Width="80"/>
+                    <DataGridTextColumn Header="ProductName"
+                                         Binding="{Binding ProductName}"
+                                         Width="*"/>
+                    <DataGridTextColumn Header="CategoryID"
+                                         Binding="{Binding CategoryID}"
+                                         Width="80"/>
+                    <DataGridTextColumn Header="UnitPrice"
+                                         Binding="{Binding UnitPrice}"
+                                         Width="80"/>
+                    <DataGridTextColumn Header="UnitsInStock"
+                                         Binding="{Binding UnitsInStock}"
+                                         Width="80"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Input fields & action buttons -->
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- ProductID -->
+                <TextBlock Grid.Row="0" Grid.Column="0"
+                           Text="ProductID" FontSize="12"
+                           VerticalAlignment="Center"
+                           Margin="0,2,8,2"/>
+                <TextBox Grid.Row="0" Grid.Column="1"
+                         x:Name="txtProductID"
+                         Style="{StaticResource InputStyle}"/>
+
+                <!-- ProductName -->
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Text="ProductName" FontSize="12"
+                           VerticalAlignment="Center"
+                           Margin="0,2,8,2"/>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                         x:Name="txtProductName"
+                         Style="{StaticResource InputStyle}"/>
+
+                <!-- CategoryID -->
+                <TextBlock Grid.Row="2" Grid.Column="0"
+                           Text="CategoryID" FontSize="12"
+                           VerticalAlignment="Center"
+                           Margin="0,2,8,2"/>
+                <TextBox Grid.Row="2" Grid.Column="1"
+                         x:Name="txtCategoryID"
+                         Style="{StaticResource InputStyle}"/>
+
+                <!-- UnitPrice -->
+                <TextBlock Grid.Row="3" Grid.Column="0"
+                           Text="UnitPrice" FontSize="12"
+                           VerticalAlignment="Center"
+                           Margin="0,2,8,2"/>
+                <TextBox Grid.Row="3" Grid.Column="1"
+                         x:Name="txtUnitPrice"
+                         Style="{StaticResource InputStyle}"/>
+
+                <!-- UnitsInStock -->
+                <TextBlock Grid.Row="4" Grid.Column="0"
+                           Text="UnitsInStock" FontSize="12"
+                           VerticalAlignment="Center"
+                           Margin="0,2,8,2"/>
+                <TextBox Grid.Row="4" Grid.Column="1"
+                         x:Name="txtUnitsInStock"
+                         Style="{StaticResource InputStyle}"/>
+
+                <!-- Action Buttons -->
+                <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            Margin="0,12,0,0">
+                    <Button Content="Add"
+                            Style="{StaticResource PrimaryButton}"
+                            Click="Add_Click"/>
+                    <Button Content="Update"
+                            Style="{StaticResource PrimaryButton}"
+                            Click="Update_Click"/>
+                    <Button Content="Delete"
+                            Style="{StaticResource PrimaryButton}"
+                            Click="Delete_Click"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>
